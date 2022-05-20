@@ -1,0 +1,25 @@
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.home > div {
+  display: flex;
+}
+
+.link {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.link.disabled {
+  /* pointer-events: none; */
+  cursor: not-allowed;
+}

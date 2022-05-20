@@ -1,0 +1,36 @@
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.doors {
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.buttons button {
+  background-color: #c0392c;
+  color: #f9f9f9;
+  font-size: 2rem;
+  border: none;
+  padding: 10px 25px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.buttons button:hover {
+  box-shadow: 0 4px 10px 5px rgba(42, 42, 42, 0.508);
+  background-color: #d44e41;
+}

@@ -1,0 +1,34 @@
+.presente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tampa {
+  height: 25px;
+  width: 100px;
+  background-color: #7aa944;
+  border-radius: 2px 2px 0 0;
+}
+
+.corpo {
+  width: 90px;
+  height: 60px;
+  background-color: #5c7e32;
+  border-radius: 0 0 2px 2px;
+}
+
+.lacoX, .lacoY {
+  background-color: rgb(232, 84, 84);
+  position: absolute;
+}
+.lacoY {
+   width: 15px;
+   height: 85px;
+}
+.lacoX {
+  width: 90px;
+  height: 15px;
+}
